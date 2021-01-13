@@ -1,41 +1,41 @@
 # p2pdesk
 
-用于局域网远程控制，类似 TeamViewer 和 AnyDesk。
+For LAN remote control, similar to TeamViewer and AnyDesk.
 
-## 初始化
+## Initialize
 
 ```bash
 npm install
 ```
 
-## 启动服务器端（受控端）
+## Start the server side (controlled side)
 
-首先安装 ffmpeg：
+First install ffmpeg.
 
-linux(ubuntu)系统：
+For linux (ubuntu) systems.
 
 ```bash
 sudo apt install ffmpeg
 ```
 
-windows 系统：
+For windows systems.：
 
-下载 ffmpeg <https://ffmpeg.zeranoe.com/builds/> ，解压后将 ffmpeg.exe 放在当前路径下。
+Download ffmpeg https://ffmpeg.zeranoe.com/builds/, unzip it and put ffmpeg.exe under the current path.
 
-最后，执行以下命令启动服务端：
+Finally, start the server by executing the following command.
 
 ```bash
 node server.js
 ```
 
-## 启动客户端（控制端）
+## Start the client (console)
 
-linux(ubuntu) 系统：
+For linux (ubuntu) systems.
 
 ```bash
 node client.js <server-ip>
 ```
+For windows systems.
 
-windows 系统：
+Download the windows client: <https://github.com/keyou/peerdesk-windows/releases>
 
-下载windows客户端： <https://github.com/keyou/peerdesk-windows/releases>
